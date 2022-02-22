@@ -32,7 +32,7 @@ public class PaymentsService {
     }
 
     @Transactional
-    public void delete(PaymentsModel usuarioModel) {
-        paymentsRepository.delete(usuarioModel);
+    public void delete(PaymentsModel paymentsModel) {
+        paymentsRepository.delete(paymentsModel);
     }
 }
