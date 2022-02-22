@@ -12,7 +12,7 @@ public class ProdutoModel {
     private String codigo;
     private String name;
     private String description;
-    private boolean active;
+//    private boolean active;
 //    private String category_ids;
 
 }
